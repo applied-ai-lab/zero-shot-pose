@@ -40,6 +40,8 @@ parser.add_argument('--note', type=str, default="",
 parser.add_argument('--log_dir', type=str, default=LOG_DIR, 
                     help='Path to log directory, under which exps get folders')
 parser.add_argument('--best_frame_mode', type=str, default="corresponding_feats_similarity",
+                    choices=['corresponding_feats_similarity', 'global_similarity',
+                             'ref_to_target_saliency_map_iou', 'cylical_dists_to_saliency_map_iou'],
                     help='How to identify the best frame for correspondence')
 parser.add_argument('--plot_results', action='store_true')
 parser.add_argument('--num_workers', type=int, default=4,
