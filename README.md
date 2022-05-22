@@ -39,3 +39,16 @@ python method/evaluate_ref_to_target_pose.py \
 By default, this will loop over the 20 categories in the labelled subset developed in this work, and draw 100 reference-target pairings from the 10 labelled sequences in each of these categories. To vary the number of target frames used (default = 5), change the `--n_target` argument.
 
 To plot results (correspondences, the closest matching frame, and renders of the aligned point clouds), pass `--plot_results`.
+
+## Citation
+
+If you use this code in your research, please consider citing our paper:
+```
+@article{goodwin2022,
+    author  = {Walter Goodwin and Sagar Vaze and Ioannis Havoutis and Ingmar Posner},
+    title   = {Zero-Shot Category-Level Object Pose Estimation},
+    journal = {arXiv preprint},
+    year    = {2022},
+  }
+```
+
