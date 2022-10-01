@@ -1,6 +1,6 @@
 # Zero-Shot Category-Level Object Pose Estimation
 
-This repository contains Pytorch code for the paper **Zero-Shot Category-Level Object Pose Estimation (Goodwin et al., 2022)** [[arxiv]](https://arxiv.org/abs/2204.03635).
+This repository contains Pytorch code for the paper **Zero-Shot Category-Level Object Pose Estimation (Goodwin et al., ECCV 2022)** [[arxiv]](https://arxiv.org/abs/2204.03635).
 
 ![alt text](main.jpg?raw=true "Zero-Shot Category-Level Object Pose Estimation")
 
