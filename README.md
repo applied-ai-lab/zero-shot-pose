@@ -17,7 +17,9 @@ This repository contains Pytorch code for the paper **Zero-Shot Category-Level O
 Install the `zsp` python package implemented in this repo with `pip install -e .`
 
 ## Dataset
-This work uses the Common Objects in 3D (CO3D) dataset. The repo for this dataset, with download instructions, is [here](https://github.com/facebookresearch/co3d). 
+> :warning: **This repo uses CO3D Version 1**: Use the correct `v1` branch of the CO3D repo, available [here](https://github.com/facebookresearch/co3d/tree/v1)! Meta has since released a v2 of the CO3D dataset, which is not currently supported but likely could be if somebody wanted to put in the effort! 
+
+This work uses the Common Objects in 3D (CO3D) dataset. The repo for this dataset, with download instructions, is [here](https://github.com/facebookresearch/co3d/tree/v1). 
 
 This dataset contains 18,619 multi-frame sequences capturing different instances of 50 object categories. For full dataset is around 1.4TB. For evaluation in this work, we manually annotated 10 sequences from each of 20 categories with ground-truth poses (these annotations are found under `data/class_labels`). The relevant subset of the dataset is thus smaller at around ~15GB. If you are struggling to download the entire CO3D dataset, please contact me and I will try to share this subset with you.
 
