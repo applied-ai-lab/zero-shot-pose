@@ -1,6 +1,6 @@
 # Co3D
-# from zsp.datasets.co3d_dataset import Co3dDataset
-from zsp.datasets.co3d_dataset_fix import Co3dDataset
+from zsp.datasets.co3d_dataset import Co3dDataset
+# from zsp.datasets.co3d_dataset_fix import Co3dDataset
 
 # ML
 from torch.utils.data import Dataset
